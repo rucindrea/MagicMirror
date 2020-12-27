@@ -187,7 +187,10 @@ sup {
 }
 
 .region.bottom {
-  bottom: 0;
+  /* bottom: 0; */
+  /* top: 62%; */
+  bottom: 10%;
+  /* background-color: blue; */
 }
 
 .region.bottom .container:empty {
@@ -197,7 +200,9 @@ sup {
 .region.bottom.right,
 .region.bottom.center,
 .region.bottom.left {
-  bottom: 100%;
+  /* top: 62%; */
+  width: 33%;
+  /* background-color: aqua; */
 }
 
 .region.bar {
@@ -213,7 +218,10 @@ sup {
 }
 
 .region.upper.third {
-  top: 33%;
+  /* top: 33%; */
+  top: 21%;
+  bottom: 52%;
+  /* background-color: red; */
 }
 
 .region.middle.center {
@@ -222,6 +230,9 @@ sup {
 
 .region.lower.third {
   top: 66%;
+  /* top: 62%;
+  bottom: 10%;
+  background-color: blue; */
 }
 
 .region.left {

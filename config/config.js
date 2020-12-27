@@ -47,15 +47,12 @@ var config = {
 		},
 		{
 			module: "clock",
-			position: "top_left"
-		},
-		{
-			module: "compliments",
 			position: "upper_third"
 		},
+
 		{
 			module: "currentweather",
-			position: "top_right",
+			position: "bottom_right",
 			config: {
 				locationID: "658225", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
 				appid: "adbeba5d31641d19e0d928db43511a61"
@@ -63,7 +60,7 @@ var config = {
 		},
 		{
 			module: "weatherforecast",
-			position: "top_right",
+			position: "bottom_right",
 			header: "Weather Forecast",
 			config: {
 				locationID: "658225", //ID from http://bulk.openweathermap.org/sample/city.list.json.gz; unzip the gz file and find your city
@@ -72,7 +69,7 @@ var config = {
 		},
 		{
 			module: "mm-hsl-timetable",
-			position: "top_left",
+			position: "bottom_left",
 			header: "Bus schedule",
 			config: {
 				stops: [1431146, { "id": 1431602, "minutesFrom": 10, "name": "Herttoniemi Metro" }, { "id": 1431604, "minutesFrom": 5, "name": "Siilitie Metro" }],
@@ -81,23 +78,28 @@ var config = {
 		},
 		{
 			module: "newsfeed",
-			position: "bottom_bar",
+			position: "upper_third",
 			config: {
 				feeds: [
-					// {
-					// 	title: "New York Times",
-					// 	url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-					// },
 					{
 						title: "Yle News",
 						url: "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_NEWS"
+					},
+					{
+						title: "YLE Uuutiset",
+						url: "https://feeds.yle.fi/uutiset/v1/majorHeadlines/YLE_UUTISET.rss"
 					}
+
 				],
 				showSourceTitle: true,
 				showPublishDate: true,
 				broadcastNewsFeeds: true,
 				broadcastNewsUpdates: true
 			}
+		},
+		{
+			module: "compliments",
+			position: "upper_third"
 		},
 	]
 };
