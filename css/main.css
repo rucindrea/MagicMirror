@@ -159,10 +159,9 @@ sup {
 }
 
 .region.top {
-  /* top: 33%; */
   top: 21%;
   bottom: 52%;
-  background-color: red;
+  /* background-color: red; */
 }
 
 .region.top .container {
@@ -190,10 +189,8 @@ sup {
 }
 
 .region.bottom {
-  /* bottom: 0; */
-  /* top: 62%; */
   bottom: 10%;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .region.bottom .container:empty {
@@ -203,9 +200,7 @@ sup {
 .region.bottom.right,
 .region.bottom.center,
 .region.bottom.left {
-  /* top: 62%; */
   width: 33%;
-  /* background-color: aqua; */
 }
 
 .region.bar {
@@ -235,9 +230,6 @@ sup {
 
 .region.lower.third {
   top: 66%;
-  /* top: 62%;
-  bottom: 10%;
-  background-color: blue; */
 }
 
 .region.left {
