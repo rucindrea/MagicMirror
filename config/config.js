@@ -47,7 +47,7 @@ var config = {
 		},
 		{
 			module: "clock",
-			position: "upper_third"
+			position: "top"
 		},
 
 		{
@@ -78,7 +78,7 @@ var config = {
 		},
 		{
 			module: "newsfeed",
-			position: "upper_third",
+			position: "top",
 			config: {
 				feeds: [
 					{
@@ -99,7 +99,7 @@ var config = {
 		},
 		{
 			module: "compliments",
-			position: "upper_third"
+			position: "top"
 		},
 	]
 };

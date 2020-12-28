@@ -159,7 +159,10 @@ sup {
 }
 
 .region.top {
-  top: 0;
+  /* top: 33%; */
+  top: 21%;
+  bottom: 52%;
+  background-color: red;
 }
 
 .region.top .container {
@@ -190,7 +193,7 @@ sup {
   /* bottom: 0; */
   /* top: 62%; */
   bottom: 10%;
-  /* background-color: blue; */
+  background-color: blue;
 }
 
 .region.bottom .container:empty {
